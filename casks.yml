@@ -1,0 +1,27 @@
+---
+- name: install homebrew casks
+  homebrew_cask: name={{ item }} state=present
+  with_items:
+    - sublime-text
+    - google-chrome
+    - dropbox
+    - gimp
+    - hipchat
+    - screenhero
+    - skype
+    - iterm2
+    - flux
+    - slate
+    - gitx-rowanj
+    - arq
+    - spotify
+    - wireshark
+    - beamer
+    - trailer
+    - hockeyapp
+    - subtitles
+    - hazel
+    - vagrant
+    - virtualbox
+    - vlc
+    - steam
