@@ -52,8 +52,6 @@
   #   git_user_email: bob.bob@example.com
   # - role: legit
   # - role: hub
-  # - role: brew_package
-  #   package_name: vim
   - role: rbenv
     global: '2.1.2'
     rubies: 
@@ -61,64 +59,7 @@
     - '2.1.1'
     - '2.1.2'
     - 'rbx-2.2.6'
-  - role: brew_package
-    package_name: the_silver_searcher
-  - role: brew_package
-    package_name: coreutils
-  - role: brew_package
-    package_name: git-extras
-  - role: brew_package
-    package_name: figlet
-  - role: brew_package
-    package_name: grc
-  - role: brew_package
-    package_name: autojump
-  - role: brew_package
-    package_name: nmap
-  - role: brew_package
-    package_name: wget
-  - role: brew_package
-    package_name: resty
-  - role: brew_package
-    package_name: python
-  - role: brew_package
-    package_name: mitmproxy
-  - role: brew_package
-    package_name: class-dump
-  - role: brew_package
-    package_name: gist
-  - role: brew_package
-    package_name: parallel
-  - role: brew_package
-    package_name: ssh-copy-id
-  - role: brew_package
-    package_name: uncrustify
-  - role: brew_package
-    package_name: imagemagick
-  - role: brew_package
-    package_name: xctool
-  ## languages
-  # - role: brew_package
-  #   package_name: node
-  # - role: rbenv
-  # - role: npm_package
-  #   package_name: grunt
-  # - role: npm_package
-  #   package_name: bower
-  # - role: cask_package
-  #   package_name: java
-  # - role: brew_package
-  #   package_name: android-sdk
-  ## databases
-  # - role: brew_package
-  #   package_name: postgres
-  # - role: brew_package
-  #   package_name: mongodb
-  ## deployment
-  - role: brew_package
-    package_name: heroku-toolbelt
-  # - role: brew_package
-  #   package_name: ansible # Hey ! Already there !
-
+  
   tasks:
+  - include: brews.yml
   - include: casks.yml

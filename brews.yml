@@ -1,0 +1,23 @@
+---
+- name: install homebrew packages
+  homebrew: name={{ item }} state=latest
+  with_items:
+    - the_silver_searcher
+    - coreutils
+    - git-extras
+    - figlet
+    - grc
+    - autojump
+    - nmap
+    - wget
+    - resty
+    - python
+    - mitmproxy
+    - class-dump
+    - gist
+    - parallel
+    - ssh-copy-id
+    - uncrustify
+    - imagemagick
+    - xctool
+    - heroku-toolbelt
