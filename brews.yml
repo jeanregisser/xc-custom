@@ -21,3 +21,4 @@
     - imagemagick
     - xctool
     - heroku-toolbelt
+    - archey
