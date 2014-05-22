@@ -3,7 +3,6 @@
   homebrew_cask: name={{ item }} state=present
   with_items:
     - sublime-text
-    - google-chrome
     - dropbox
     - gimp
     - hipchat
