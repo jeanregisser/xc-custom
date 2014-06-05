@@ -23,4 +23,5 @@
     - imagemagick
     - xctool
     - heroku-toolbelt
-    #- archey
+    - archey
+
