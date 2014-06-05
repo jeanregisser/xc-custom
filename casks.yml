@@ -3,7 +3,7 @@
   homebrew_cask: name={{ item }} state=present
   with_items:
     - sublime-text
-	- textmate
+    - textmate
     - dropbox
     - gimp
     - hipchat
@@ -26,4 +26,5 @@
     - vlc
     - steam
     - ngrok
-	- imageoptim
+    - imageoptim
+
