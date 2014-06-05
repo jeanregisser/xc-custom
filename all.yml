@@ -26,9 +26,9 @@
   #   disabled: YES
 
   # fonts
-  # - role: cask_package
-  #   tap: caskroom/fonts
-  #   package_name: font-source-code-pro
+  - role: cask_package
+    tap: caskroom/fonts
+    package_name: font-source-code-pro
   # - role: cask_package
   #   tap: caskroom/fonts
   #   package_name: font-sauce-code-powerline
