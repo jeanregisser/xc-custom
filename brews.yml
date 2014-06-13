@@ -18,6 +18,7 @@
     - class-dump
     - gist
     - parallel
+    - mosh
     - ssh-copy-id
     - uncrustify
     - imagemagick
