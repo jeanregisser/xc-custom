@@ -35,7 +35,7 @@
 
   # repos
   - role: git_package
-    repo: github.com/jeanregisser/dotfiles
+    repo: github.com/jeanregisser/dotfiles update=no
   - role: git_package
     repo: github.com/zsh-users/antigen
   - role: git_package
