@@ -29,9 +29,9 @@
   - role: cask_package
     tap: caskroom/fonts
     package_name: font-source-code-pro
-  # - role: cask_package
-  #   tap: caskroom/fonts
-  #   package_name: font-sauce-code-powerline
+  - role: cask_package
+    tap: caskroom/fonts
+    package_name: font-sauce-code-powerline
 
   # repos
   - role: git_package
