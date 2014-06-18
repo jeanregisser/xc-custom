@@ -9,6 +9,8 @@
     - git-extras
     - figlet
     - grc
+    - mongodb
+    - node
     - autojump
     - nmap
     - wget
