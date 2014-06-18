@@ -47,11 +47,7 @@
 
   # cli
   # shell tooling
-  # - role: git
-  #   git_user_name: Bob Bob
-  #   git_user_email: bob.bob@example.com
-  # - role: legit
-  # - role: hub
+  - role: spf13_vim
   - role: rbenv
     global: '2.1.2'
     rubies: 
