@@ -25,14 +25,6 @@
   # - role: dashboard
   #   disabled: YES
 
-  # fonts
-  - role: cask_package
-    tap: caskroom/fonts
-    package_name: font-source-code-pro
-  - role: cask_package
-    tap: caskroom/fonts
-    package_name: font-sauce-code-powerline
-
   # repos
   - role: git_package
     repo: github.com/jeanregisser/dotfiles update=no
@@ -55,7 +47,7 @@
     - '2.1.1'
     - '2.1.2'
     - 'rbx-2.2.6'
-  
+
   tasks:
   - include: brews.yml
   - include: casks.yml

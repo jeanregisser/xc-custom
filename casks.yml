@@ -38,3 +38,11 @@
     - vlc
     - rdio
 
+- name: caskroom/fonts tap
+  homebrew_tap: tap=caskroom/fonts state=present
+- name: caskroom/fonts casks
+  homebrew_cask: name={{ item }} state=present
+  with_items:
+    - font-source-code-pro
+    - font-sauce-code-powerline
+

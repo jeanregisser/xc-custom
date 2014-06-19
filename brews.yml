@@ -28,3 +28,10 @@
     - heroku-toolbelt
     - archey
 
+- name: homebrew/versions tap
+  homebrew_tap: tap=homebrew/versions state=present
+- name: homebrew/versions brews 
+  homebrew: name={{ item }} state=latest
+  with_items:
+    - mongodb24
+
