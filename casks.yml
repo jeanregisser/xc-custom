@@ -38,6 +38,7 @@
     - cyberduck
     - vlc
     - rdio
+    - smartloader
 
 - name: caskroom/fonts tap
   homebrew_tap: tap=caskroom/fonts state=present
