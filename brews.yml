@@ -28,6 +28,7 @@
     - xctool
     - heroku-toolbelt
     - archey
+    - tree
 
 - name: homebrew/versions tap
   homebrew_tap: tap=homebrew/versions state=present
