@@ -52,4 +52,5 @@
   - include: brews.yml
   - include: casks.yml
   - include: npm_packages.yml
+  - include: pip_packages.yml
 
