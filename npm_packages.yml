@@ -4,5 +4,7 @@
   with_items:
     - coffee-script
     - coffeelint
+    - jsonlint
+    - js-yaml
     - meteorite
 
