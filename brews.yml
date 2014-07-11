@@ -29,6 +29,7 @@
     - heroku-toolbelt
     - archey
     - tree
+    - lighttpd
 
 - name: homebrew/versions tap
   homebrew_tap: tap=homebrew/versions state=present
