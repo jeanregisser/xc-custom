@@ -1,0 +1,8 @@
+---
+- name: install gems
+  command: zsh -lc "gem install {{ item }}"
+  with_items:
+    - bundler
+    - rubocop
+    - ruby-lint
+

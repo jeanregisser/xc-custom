@@ -51,6 +51,7 @@
   tasks:
   - include: brews.yml
   - include: casks.yml
+  - include: gems.yml
   - include: npm_packages.yml
   - include: pip_packages.yml
 
